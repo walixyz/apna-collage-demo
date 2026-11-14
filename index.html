@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wali xyz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>wali xyz</h1>
+        <p class="subtitle">A complete web platform built with semantic HTML5 and external CSS (No JavaScript)</p>
+    </header>
+
+    <!-- Navigation Bar pointing to simulated folder structure -->
+    <nav>
+        <table>
+            <tr>
+                <td class="nav-label">Root:</td>
+                <td><a href="#home-page">dddd</a></td>
+                <td class="nav-label">/pages Folder:</td>
+                <td><a href="#about-page">/pages/about.html</a></td>
+                <td><a href="#projects-page">/pages/projects.html</a></td>
+                <td><a href="#contact-page">/pages/contact.html</a></td>
+                <td><a href="#tree-page">/pages/directory.html</a></td>
+            </tr>
+        </table>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- PAGE 1: Root /index.html -->
+        <section id="home-page">
+            <fieldset>
+                <legend><h2>FILE: /index.html (Home Page)</h2></legend>
+                
+                <h3>Welcome to the HTML &amp; CSS Portal</h3>
+                <p>This website demonstrates how semantic HTML structures content, formats tables, creates interactive user input forms, displays hierarchical data, and links across folder boundaries—enhanced with clean external CSS and zero JavaScript.</p>
+
+                <hr>
+
+                <h4>Site Features Overview</h4>
+                <ul>
+                    <li><b>Semantic Elements:</b> Header, Nav, Main, Article, Section, Footer.</li>
+                    <li><b>Data Display:</b> Styled HTML Tables with headers, footers, and hover states.</li>
+                    <li><b>User Input:</b> Native HTML Forms supporting multi-type inputs, dropdowns, textareas, and fieldsets.</li>
+                    <li><b>Simulated File System:</b> Clear navigation between simulated subfolders (<code>/</code> and <code>/pages/</code>).</li>
+                </ul>
+
+                <h4>Quick Folder Navigation</h4>
+                <ol type="I">
+                    <li><a href="#about-page">Learn more About Us (/pages/about.html)</a></li>
+                    <li><a href="#projects-page">View our Project Archive (/pages/projects.html)</a></li>
+                    <li><a href="#contact-page">Send a message via Contact Form (/pages/contact.html)</a></li>
+                    <li><a href="#tree-page">Inspect Full Directory Tree (/pages/directory.html)</a></li>
+                </ol>
+            </fieldset>
+        </section>
+
+        <!-- PAGE 2: /pages/about.html -->
+        <section id="about-page">
+            <fieldset>
+                <legend><h2>FILE: /pages/about.html (About Us)</h2></legend>
+
+                <article>
+                    <h3>About Our Architecture</h3>
+                    <p>Before modern CSS frameworks and JavaScript runtimes, the World Wide Web relied exclusively on document markup. Pairing semantic HTML5 tags with a dedicated <code>style.css</code> file separates structure from presentation cleanly.</p>
+                </article>
+
+                <table>
+                    <caption>System Specifications &amp; HTML Features Matrix</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>HTML Tags Used</th>
+                            <th>Purpose</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Structure</b></td>
+                            <td><code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code></td>
+                            <td>Organizing document layout semantically.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Grouping</b></td>
+                            <td><code>&lt;fieldset&gt;</code>, <code>&lt;legend&gt;</code>, <code>&lt;details&gt;</code>, <code>&lt;summary&gt;</code></td>
+                            <td>Framing and collapsing section modules natively.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Form Controls</b></td>
+                            <td><code>&lt;input&gt;</code>, <code>&lt;select&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;button&gt;</code></td>
+                            <td>Collecting user input without client-side scripts.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <details>
+                    <summary>Click to expand: Frequently Asked Questions</summary>
+                    <p><b>Q: How does navigation work without JS?</b><br>
+                    A: HTML anchor links (<code>&lt;a href="..."&gt;</code>) utilize document fragment identifiers and CSS <code>scroll-behavior: smooth</code> to navigate smoothly between sections.</p>
+                    <p><b>Q: Are forms functional without JS?</b><br>
+                    A: Yes! Browser-native GET and POST requests transmit form inputs directly to HTTP targets with built-in HTML5 validation.</p>
+                </details>
+            </fieldset>
+        </section>
+
+        <!-- PAGE 3: /pages/projects.html -->
+        <section id="projects-page">
+            <fieldset>
+                <legend><h2>FILE: /pages/projects.html (Project Catalog)</h2></legend>
+
+                <h3>Our Pure HTML &amp; CSS Data Projects</h3>
+                <p>Below is a comparative breakdown of sample repository data rendered inside styled HTML tables.</p>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project ID</th>
+                            <th>Module Name</th>
+                            <th>Location Tag</th>
+                            <th>Status</th>
+                            <th>Priority</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PRJ-001</td>
+                            <td>Document Schema</td>
+                            <td><code>/docs/schema.html</code></td>
+                            <td><span class="badge status-complete">Complete</span></td>
+                            <td>High</td>
+                        </tr>
+                        <tr>
+                            <td>PRJ-002</td>
+                            <td>User Contact Portal</td>
+                            <td><code>/pages/contact.html</code></td>
+                            <td><span class="badge status-active">Active</span></td>
+                            <td>High</td>
+                        </tr>
+                        <tr>
+                            <td>PRJ-003</td>
+                            <td>Site Directory Index</td>
+                            <td><code>/pages/directory.html</code></td>
+                            <td><span class="badge status-pending">Pending</span></td>
+                            <td>Medium</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" class="table-footer">Total Tracked Modules: 3</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <h4>Technical Specifications Checklist</h4>
+                <ul class="square-list">
+                    <li>Strict compliance with W3C HTML5 &amp; CSS3 standards</li>
+                    <li>Zero inline <code>style=""</code> attributes</li>
+                    <li>Zero reliance on <code>&lt;script&gt;</code> execution</li>
+                    <li>Responsive, cross-browser rendering compatibility</li>
+                </ul>
+            </fieldset>
+        </section>
+
+        <!-- PAGE 4: /pages/contact.html -->
+        <section id="contact-page">
+            <fieldset>
+                <legend><h2>FILE: /pages/contact.html (Contact Form)</h2></legend>
+
+                <h3>Contact &amp; Inquiry Submission</h3>
+                <p>Use the form below to submit inquiries. This form leverages standard HTML validation attributes (such as <code>required</code>, <code>type="email"</code>, and <code>minlength</code>).</p>
+
+                <form action="#" method="get">
+                    <fieldset class="inner-fieldset">
+                        <legend>Personal Information</legend>
+                        <table class="form-table">
+                            <tr>
+                                <td><label for="fullname">Full Name:</label></td>
+                                <td><input type="text" id="fullname" name="fullname" placeholder="John Doe" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="email">Email Address:</label></td>
+                                <td><input type="email" id="email" name="email" placeholder="john@example.com" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="phone">Phone Number:</label></td>
+                                <td><input type="tel" id="phone" name="phone" placeholder="123-456-7890"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <fieldset class="inner-fieldset">
+                        <legend>Inquiry Details</legend>
+                        <table class="form-table">
+                            <tr>
+                                <td><label for="department">Department:</label></td>
+                                <td>
+                                    <select id="department" name="department">
+                                        <option value="general">General Support</option>
+                                        <option value="technical">Technical Specs</option>
+                                        <option value="feedback">Feedback &amp; Suggestions</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Preferred Contact Method:</b></td>
+                                <td class="inline-controls">
+                                    <input type="radio" id="contact-email" name="contact_method" value="email" checked>
+                                    <label for="contact-email">Email</label>
+                                    <input type="radio" id="contact-phone" name="contact_method" value="phone">
+                                    <label for="contact-phone">Phone</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Topics of Interest:</b></td>
+                                <td class="inline-controls">
+                                    <input type="checkbox" id="topic-html" name="topics" value="html" checked>
+                                    <label for="topic-html">HTML Elements</label>
+                                    <input type="checkbox" id="topic-tables" name="topics" value="tables">
+                                    <label for="topic-tables">Table Layouts</label>
+                                    <input type="checkbox" id="topic-forms" name="topics" value="forms">
+                                    <label for="topic-forms">Forms &amp; Validation</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="message">Message:</label></td>
+                                <td>
+                                    <textarea id="message" name="message" rows="5" cols="40" placeholder="Type your message here..." required></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Submit Message</button>
+                        <button type="reset" class="btn-secondary">Clear Form</button>
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+
+        <!-- PAGE 5: /pages/directory.html -->
+        <section id="tree-page">
+            <fieldset>
+                <legend><h2>FILE: /pages/directory.html (Folder Structure Tree)</h2></legend>
+
+                <h3>Website Folder &amp; Directory Tree</h3>
+                <p>Here is how the project files are organized across the folder hierarchy:</p>
+
+                <pre>
+root_website/
+│
+├── index.html                  [Home Page - Root]
+├── style.css                   [External Stylesheet]
+│
+├── pages/                      [Pages Subfolder]
+│   ├── about.html              [About Us Page]
+│   ├── projects.html           [Projects Catalog]
+│   ├── contact.html            [Contact Form Page]
+│   └── directory.html          [Folder Hierarchy View]
+│
+└── assets/                     [Assets Subfolder]
+    ├── images/                 [Image Storage]
+    └── docs/                   [Text Documents]
+                </pre>
+
+                <hr>
+
+                <h4>Directory File Summary Table</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Folder Path</th>
+                            <th>File Name</th>
+                            <th>Description</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>/</code></td>
+                            <td><code>index.html</code></td>
+                            <td>Main site homepage and introduction</td>
+                            <td><a href="#home-page">Go to Section</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>/</code></td>
+                            <td><code>style.css</code></td>
+                            <td>Global styling rules and layout theme</td>
+                            <td><a href="#about-page">View Specs</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>/pages/</code></td>
+                            <td><code>about.html</code></td>
+                            <td>Architecture details and spec matrix</td>
+                            <td><a href="#about-page">Go to Section</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>/pages/</code></td>
+                            <td><code>projects.html</code></td>
+                            <td>Project tables and standard checklists</td>
+                            <td><a href="#projects-page">Go to Section</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>/pages/</code></td>
+                            <td><code>contact.html</code></td>
+                            <td>User inquiry submission form</td>
+                            <td><a href="#contact-page">Go to Section</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>/pages/</code></td>
+                            <td><code>directory.html</code></td>
+                            <td>This directory tree view</td>
+                            <td><a href="#tree-page">Go to Section</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 HTML &amp; CSS Web Portal. Built exclusively with valid HTML5 &amp; CSS3.</p>
+        <a href="#home-page">Back to Top &uarr;</a>
+    </footer>
+
+</body>
+</html>
